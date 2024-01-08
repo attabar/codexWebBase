@@ -1,0 +1,24 @@
+.courses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+.courses div{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding:10px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+}
+.courses div img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 2%;
+    gap: 2px
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}

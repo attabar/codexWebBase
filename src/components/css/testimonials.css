@@ -1,0 +1,20 @@
+.testimonials-section{
+    background-color: aqua;
+    padding: 100px;
+}
+h2{
+    text-align: center;
+}
+.testimonials-section .testimonials-card {
+   border: 10px solid #fff;
+}
+img{
+    width: 100px;
+}
+.slider-container{
+    background-color: black;
+    padding-right: 10px;
+    color: white;
+    /* text-align: center; */
+    padding: 100px;
+}

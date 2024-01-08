@@ -1,0 +1,30 @@
+.become-a-tutor{
+    background-color:#333;
+    color:cornsilk;
+    padding: 7%;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+    /* margin-top: 10px; */
+    /* display: none; */
+}
+
+.become-a-tutor-paragraph{
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 15px;
+    line-height: 40px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons button{
+    padding: 20px;
+    width: 20%;
+}

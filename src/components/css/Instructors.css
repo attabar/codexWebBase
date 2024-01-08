@@ -1,0 +1,20 @@
+.instructors-section{
+    background-color: burlywood; 
+    padding: 100px;  
+}
+.instructor-card{
+    background-color: black;
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+}
+img{
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+h2, p{
+    /* margin-bottom:5px; */
+    margin-top: 15px; 
+}

@@ -1,0 +1,27 @@
+.footer{
+    background-color: black;
+    padding: 50px;
+    color:#fff
+}
+
+.footer .footer-image{
+    width: 80px;
+}
+.img-container{
+    text-align: center;
+    padding: 15px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu p{
+    padding: 10px;
+}
+
+.copyright-container{
+    text-align: center;
+}

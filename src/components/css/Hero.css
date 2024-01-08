@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* Ensure there is no default margin on the body */
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    background-color: #333;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* on small screen */
+@media only screen and (max-width:767px) {
+    .hero {
+        background-image: url('../img/hero2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+/* on large screen */
+@media screen and (min-width:1200px) {
+    .hero {
+        background-image: url('../img/hero2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+        
+}
